@@ -1,0 +1,32 @@
+.h1-header {
+  font-family: Montserrat sans-serif;
+  letter-spacing: 4px;
+  font-size: 20px;
+  padding: 2vw;
+  padding-top: 8vh;
+  font-weight: bold;
+}
+.iframe-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: gray;
+}
+.video-holder {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.intro-paragraph {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 5vh;
+  padding-right: 17vw;
+  padding-left: 17vw;
+  padding-bottom: 20vh;
+  line-height: 81px;
+}
