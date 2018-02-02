@@ -30,3 +30,7 @@
   padding-bottom: 20vh;
   line-height: 81px;
 }
+.toggleMenu {
+  position: relative;
+  left: 300px;
+}

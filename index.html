@@ -15,11 +15,33 @@
 
     <title>Belancio Replica</title>
 </head>
+<script>function myFunction() {
+        var x = document.getElementById("toggleMenu");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }</script>
 
 <body>
     <div>
         <div>
-            <h1 class='h1-header'>BELLANCIO</h1>
+            <span class='h1-header'>BELANCIO</h1>
+
+                <button onclick="myFunction()">Menu</button>
+
+
+
+                <div id="toggleMenu">
+                    <h3>About</h3>
+                    <h3>Strategy</h3>
+                    <h3>Clients</h3>
+                    <h3>Contact Us</h3>
+
+
+                </div>
+            </span>
         </div>
     </div>
     <div>
