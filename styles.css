@@ -30,7 +30,12 @@
   padding-bottom: 20vh;
   line-height: 81px;
 }
-.toggleMenu {
-  position: relative;
-  left: 300px;
+#toggleMenu {
+  display: inline-block;
+  margin-right: 30px;
+  display: none;
+}
+#close {
+  float: right;
+  margin-right: 20px;
 }

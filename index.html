@@ -17,10 +17,10 @@
 </head>
 <script>function myFunction() {
         var x = document.getElementById("toggleMenu");
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
+        if (x.style.display === "block") {
             x.style.display = "none";
+        } else {
+            x.style.display = "block";
         }
     }</script>
 
@@ -29,11 +29,12 @@
         <div>
             <span class='h1-header'>BELANCIO</h1>
 
-                <button onclick="myFunction()">Menu</button>
+                <button id="close" onclick="myFunction()">Menu</button>
 
 
 
                 <div id="toggleMenu">
+                    <h3 id="close" onClick="myFunction()">X</h3>
                     <h3>About</h3>
                     <h3>Strategy</h3>
                     <h3>Clients</h3>
