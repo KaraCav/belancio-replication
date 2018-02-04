@@ -3,7 +3,7 @@
   letter-spacing: 4px;
   font-size: 20px;
   padding: 2vw;
-  padding-top: 8vh;
+  padding-top: 4vh;
   font-weight: bold;
 }
 .iframe-container {
@@ -35,7 +35,25 @@
   margin-right: 30px;
   display: none;
 }
-#close {
+div h3 {
+  text-align: center;
+  font-size: 48px;
+}
+#close-x {
+  display: block;
+  padding: 2vw;
   float: right;
-  margin-right: 20px;
+}
+.head-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-menu {
+  font-size: 18px;
+  padding: 0px 40px;
+  cursor: pointer;
+  margin: 40px 20px 40px 0px;
+  border-radius: 8px;
+  background-color: rgb(247, 240, 240);
 }

@@ -22,27 +22,64 @@
         } else {
             x.style.display = "block";
         }
-    }</script>
+    }
+    function menuFunction() {
+        var y = document.getElementById("close");
+
+        if (y.innerHTML === "Menu") {
+            y.innerHTML = "X";
+            y.style.fontSize = '30px';
+            y.style.padding = "0px 15px";
+            y.style.margin = "40px 60px 40px 0px"
+        } else {
+            y.innerHTML = "Menu";
+            y.style.fontSize = '18px';
+            y.style.padding = "0px 40px";
+            y.style.margin = "40px 20px 40px 0px";
+
+        }
+        // var z = document.getElementsByClassName("close-x");
+
+        // if (y.style.display === "none") {
+        //     y.style.display = "block";
+        // } else {
+        //     y.style.display = "none";
+        // }
+        // if (z.style.display === "block") {
+        //     z.style.display = "none";
+        // } else {
+        //     z.style.display = "block";
+        // }
+    }
+
+</script>
 
 <body>
     <div>
         <div>
-            <span class='h1-header'>BELANCIO</h1>
-
-                <button id="close" onclick="myFunction()">Menu</button>
-
-
-
-                <div id="toggleMenu">
-                    <h3 id="close" onClick="myFunction()">X</h3>
-                    <h3>About</h3>
-                    <h3>Strategy</h3>
-                    <h3>Clients</h3>
-                    <h3>Contact Us</h3>
-
-
+            <div class="head-div">
+                <div>
+                    <h1 class='h1-header'>BELANCIO</h1>
                 </div>
-            </span>
+
+                <div id="close" class="close-menu" onClick="myFunction(), menuFunction()">Menu</div>
+
+
+            </div>
+
+
+
+
+
+            <div id="toggleMenu">
+                <h3>About</h3>
+                <h3>Strategy</h3>
+                <h3>Clients</h3>
+                <h3>Contact Us</h3>
+
+
+            </div>
+
         </div>
     </div>
     <div>
