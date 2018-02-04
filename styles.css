@@ -50,10 +50,19 @@ div h3 {
 }
 
 .close-menu {
+  align-content: center;
   font-size: 18px;
   padding: 0px 40px;
   cursor: pointer;
   margin: 40px 20px 40px 0px;
   border-radius: 8px;
   background-color: rgb(247, 240, 240);
+}
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4vh;
+}
+.arrow-down {
+  height: 8vh;
 }
