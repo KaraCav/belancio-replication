@@ -32,7 +32,9 @@
             y.innerHTML = "X";
             y.style.fontSize = '30px';
             y.style.padding = "0px 15px";
-            y.style.margin = "40px 60px 40px 0px"
+            y.style.margin = "40px 60px 40px 0px";
+            // y.style.transition = "opacity ease-in-out";
+            // y.style.transitionDuration = ".5s";
         } else {
             y.innerHTML = "Menu";
             y.style.fontSize = '18px';
@@ -40,7 +42,7 @@
             y.style.margin = "40px 20px 40px 0px";
 
         }
-        // var z = document.getElementsByClassName("close-x");
+        // // var z = document.getElementsByClassName("close-x");
 
         // if (y.style.display === "none") {
         //     y.style.display = "block";
@@ -53,6 +55,11 @@
         //     z.style.display = "block";
         // }
     }
+    function scrollDown() {
+        document.querySelector('.second-section').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
 
 </script>
 
@@ -64,9 +71,7 @@
                     <h1 class='h1-header'>BELANCIO</h1>
                 </div>
 
-                <div id="close" class="close-menu" onClick="myFunction(), menuFunction()">Menu</div>
-
-
+                <div id="close" class="close-menu" onClick="myFunction(), menuFunction()"> Menu </div>
             </div>
 
 
@@ -87,15 +92,27 @@
     <div>
         <h2 class="intro-paragraph">Hello, we are Belancio. We create engaging experiences. Nice to meet you.</h2>
         <div class="arrow-container">
-            <img class="arrow-down" src="./images/v-favicon.png">
+            <img class="arrow-down" onclick="scrollDown()" src="./images/v-favicon.png">
         </div>
     </div>
-    <div class="video-holder">
-        <div class="iframe-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3VzXH3o88mw?rel=0" frameborder="0" allow="autoplay; encrypted-media"
-                allowfullscreen></iframe>
+    <div class="second-section">
+        <div>
+            <img class="pictures" src="./images/large-curology-mini.jpg" />
+        </div>
+        <div>
+            <img class="small-pic" src="./images/small2-tradesy-mini.jpg" />
+            <img class="small-pic" src="./images/small1-revel-seasonings-mini.jpg" />
+
         </div>
     </div>
+    <div class="footer" style="padding:50px; color:gray">
+        <p>Replication Copyright Kara Cavanaugh 2018</p>
+
+        <p style="padding-left:40vw">Original Site:
+            <a href="http://www.belancio.com/"> http://www.belancio.com/</a>
+        </p>
+    </div>
+
 </body>
 
 </html>
