@@ -66,3 +66,20 @@ div h3 {
 .arrow-down {
   height: 8vh;
 }
+.second-section {
+  display: flex;
+  flex-direction: row;
+}
+.pictures {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+}
+.small-pic {
+  width: 49vw;
+  height: 53vh;
+  flex-direction: row;
+}
+.footer {
+  display: flex;
+}
