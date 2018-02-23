@@ -60,24 +60,23 @@
             behavior: 'smooth'
         });
     }
+    //////////////////
+    //
     ////////////////
-    // function aboutUsFunction() {
-    //     var y = document.getElementById("about");
+    function aboutUsFunction() {
 
-    //     if (y.innerHTML === "about") {
-    //         y.innerHTML.includes('We');
-    //         y.style.fontSize = '30px';
-    //         y.style.padding = "0px 15px";
-    //         y.style.margin = "40px 60px 40px 0px";
-    //         // y.style.transition = "opacity ease-in-out";
-    //         // y.style.transitionDuration = ".5s";
-    //     } else {
-    //         y.innerHTML = "Menu";
-    //         y.style.fontSize = '18px';
-    //         y.style.padding = "0px 40px";
-    //         y.style.margin = "40px 20px 40px 0px";
+        var hidden = document.getElementById("hiddenAbout")
+        console.log(hidden);
+        if (hidden.style.display === "none") {
+            hidden.style.display = "block";
+        } else {
+            hidden.style.display = "none";
+        }
 
-    //     }
+    }
+    function strategyFunction() {
+
+    }
 ////////////////
 
 </script>
@@ -98,10 +97,17 @@
 
 
             <div id="toggleMenu">
-                <h3>About</h3>
-                <h3>Strategy</h3>
-                <h3>Clients</h3>
-                <h3>Contact Us</h3>
+               <div> <h3 class="about" onclick="aboutUsFunction()" id="about">About</h3>
+                    <div id="hiddenAbout" style="display:none" class="hidden">This is about us This is about us This is about us This is about us This is about us This is about us
+                        This is about us</div>
+                <div>
+                <h3 class="about" onclick="strategyFunction()">Strategy
+                    <div class="hidden" style="display:none" id="hiddenStrategy">
+                        <h4>This is strategy</h4>
+                    </div>
+                </h3>
+                <h3 class="about">Clients</h3>
+                <h3 class="about">Contact Us</h3>
 
             </div>
 
