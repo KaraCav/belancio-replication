@@ -71,12 +71,22 @@ div h3 {
 .footer {
   display: flex;
 }
-.about{
-  display:flex;
+.about {
+  display: flex;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 .hidden {
-  width: 40vw;
   font-size: 16px;
-justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 40vw;
+}
+.about:hover {
+  cursor: pointer;
+}
+.center {
+  margin: 0 auto;
+  width: 40vw;
 }
