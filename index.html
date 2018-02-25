@@ -27,12 +27,16 @@
     }
     function menuFunction() {
         var y = document.getElementById("close");
-
-        if (y.innerHTML === "Menu") {
+        console.log(y.innerHTML);
+        if (y.innerHTML == "Menu") {
+            console.log(y.innerHTML);
             y.innerHTML = "X";
+            console.log(y.innerHTML);
+
             y.style.fontSize = '30px';
             y.style.padding = "0px 15px";
             y.style.margin = "40px 60px 40px 0px";
+            console.log(y.innerHTML);
             // y.style.transition = "opacity ease-in-out";
             // y.style.transitionDuration = ".5s";
         } else {
@@ -40,20 +44,9 @@
             y.style.fontSize = '18px';
             y.style.padding = "0px 40px";
             y.style.margin = "40px 20px 40px 0px";
-
+            console.log(y.innerHTML);
         }
-        // // var z = document.getElementsByClassName("close-x");
 
-        // if (y.style.display === "none") {
-        //     y.style.display = "block";
-        // } else {
-        //     y.style.display = "none";
-        // }
-        // if (z.style.display === "block") {
-        //     z.style.display = "none";
-        // } else {
-        //     z.style.display = "block";
-        // }
     }
     function scrollDown() {
         document.querySelector('.second-section').scrollIntoView({
@@ -72,7 +65,6 @@
         } else {
             hidden.style.display = "none";
         }
-
     }
     function strategyFunction() {
         var hidden = document.getElementById("hiddenStrategy")
@@ -110,10 +102,8 @@
                     <h1 class='h1-header'>BELANCIO</h1>
                 </div>
 
-                <div id="close" class="close-menu" onClick="myFunction(), menuFunction()"> Menu </div>
+                <div id="close" class="close-menu" onClick="myFunction(), menuFunction()">Menu </div>
             </div>
-
-
 
 
 
