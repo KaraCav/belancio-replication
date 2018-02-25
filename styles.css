@@ -6,19 +6,7 @@
   padding-top: 4vh;
   font-weight: bold;
 }
-.iframe-container {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: gray;
-}
-.video-holder {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-}
+
 .intro-paragraph {
   font-family: sans-serif;
   font-weight: lighter;
@@ -82,4 +70,23 @@ div h3 {
 }
 .footer {
   display: flex;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.hidden {
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  width: 40vw;
+}
+.about:hover {
+  cursor: pointer;
+}
+.center {
+  margin: 0 auto;
+  width: 40vw;
 }
