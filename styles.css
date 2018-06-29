@@ -1,3 +1,8 @@
+.head-div {
+  display: flex;
+  justify-content: space-between;
+  height:15vh;
+}
 .h1-header {
   font-family: Montserrat sans-serif;
   letter-spacing: 4px;
@@ -6,7 +11,6 @@
   padding-top: 4vh;
   font-weight: bold;
 }
-
 .intro-paragraph {
   font-family: sans-serif;
   font-weight: lighter;
@@ -17,6 +21,8 @@
   padding-left: 17vw;
   padding-bottom: 20vh;
   line-height: 81px;
+  height: 70vh;
+  
 }
 #toggleMenu {
   display: inline-block;
@@ -32,11 +38,6 @@ div h3 {
   padding: 2vw;
   float: right;
 }
-.head-div {
-  display: flex;
-  justify-content: space-between;
-}
-
 .close-menu {
   align-content: center;
   font-size: 18px;
@@ -49,7 +50,8 @@ div h3 {
 .arrow-container {
   display: flex;
   justify-content: center;
-  padding-bottom: 4vh;
+  /* padding-bottom: 4vh; */
+  height: 15vh;
 }
 .arrow-down {
   height: 8vh;
@@ -62,14 +64,38 @@ div h3 {
   display: flex;
   flex-direction: row;
   width: 50vw;
+  -webkit-transition: all 0.8s ease;
+     -moz-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+          transition: all 0.8s ease;
 }
 .small-pic {
   width: 49vw;
   height: 53vh;
   flex-direction: row;
+   -webkit-transition: all 0.8s ease;
+     -moz-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+          transition: all 0.8s ease;
 }
 .footer {
   display: flex;
+}
+/* .grow img {
+  height: 300px;
+  width: 300px;
+ overflow: hidden;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+} */
+ 
+.transform:hover{
+   border-radius: 30%;
 }
 .about {
   display: flex;
