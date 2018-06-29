@@ -83,16 +83,6 @@ div h3 {
 .footer {
   display: flex;
 }
-/* .grow img {
-  height: 300px;
-  width: 300px;
- overflow: hidden;
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-} */
  
 .transform:hover{
    border-radius: 30%;
