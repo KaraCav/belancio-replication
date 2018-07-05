@@ -64,6 +64,7 @@ div h3 {
   display: flex;
   flex-direction: row;
   width: 50vw;
+  background-color: hsl(0, 0%, 100%);
   -webkit-transition: all 0.8s ease;
      -moz-transition: all 0.8s ease;
        -o-transition: all 0.8s ease;
@@ -87,6 +88,21 @@ div h3 {
 .transform:hover{
    border-radius: 30%;
 }
+.transform:hover .pictures{
+   opacity: 0.7;
+}
+.transform:hover .pic-text{
+  opacity: 1;
+}
+.pic-text{
+opacity:0;
+background-image: './images/small2-tradesy-mini.jpg'
+}
+.pic-text:hover{
+display: block;
+opacity: 1;
+background-color: red;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -94,7 +110,7 @@ div h3 {
   justify-content: center;
 }
 .hidden {
-  font-size: 16px;
+  font-size: 16px;  
   margin: 0 auto;
   text-align: center;
   width: 40vw;
