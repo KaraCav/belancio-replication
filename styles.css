@@ -65,7 +65,7 @@ div h3 {
   flex-direction: row;
   width: 50vw;
   background-color: hsl(0, 0%, 100%);
-  -webkit-transition: all 0.8got adds ease;
+  -webkit-transition: all 0.8s ease;
      -moz-transition: all 0.8s ease;
        -o-transition: all 0.8s ease;
       -ms-transition: all 0.8s ease;
@@ -87,9 +87,8 @@ div h3 {
  
 .transform:hover{
    border-radius: 15%;
-}
-.transform:hover .pictures{
-   opacity: 0.7;
+      opacity: 0.7;
+
 }
 .transform:hover .pic-text{
   opacity: 1;
