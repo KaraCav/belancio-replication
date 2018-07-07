@@ -50,11 +50,10 @@ div h3 {
 .arrow-container {
   display: flex;
   justify-content: center;
-  /* padding-bottom: 4vh; */
   height: 15vh;
 }
 .arrow-down {
-  height: 8vh;
+  height: 12vh;
 }
 .second-section {
   display: flex;
@@ -84,9 +83,11 @@ div h3 {
 .footer {
   display: flex;
 }
- 
+ .transform{
+   position: relative;
+ }
 .transform:hover{
-   border-radius: 15%;
+   border-radius: 10%;
       opacity: 0.7;
 
 }
@@ -95,12 +96,13 @@ div h3 {
 }
 .pic-text{
 opacity:0;
-background-image: './images/small2-tradesy-mini.jpg'
+/* background-image: './images/small2-tradesy-mini.jpg' */
 }
 .pic-text:hover{
-display: block;
 opacity: 1;
-background-color: red;
+background-color: gray;
+position: absolute;
+
 }
 .about {
   display: flex;
