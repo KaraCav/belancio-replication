@@ -7,10 +7,10 @@
     <!-- <meta name="theme-color" content="#000000"> -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <meta name="author" content="kara cavanaugh" />
-    <meta name="description" content="belancio replication site" />
     <link rel="stylesheet" href="./reset.css"> </link>
+    <link rel="stylesheet" href="./secondary-pages.css"> </link>
     <link rel="stylesheet" href="./styles.css"> </link>
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="shortcut icon" type="image/png" href="./images/b-favicon.png" />
     <script type="text/javascript" src="./script.js"></script>
@@ -19,95 +19,97 @@
 
 <body>
     <div>
-        <div>
-            <div class="head-div">
-                <div>
+        <!-- HEADER -->
+        <div class="head-div">
+            <div>
+                <a href="./index.html">
                     <h1 class='h1-header'>BELANCIO</h1>
-                </div>
-
-                <div id="close" class="close-menu" onClick="myFunction(), menuFunction()">Menu </div>
+                </a>
             </div>
 
 
+        </div>
+        <!-- END HEADER -->
 
-            <div id="toggleMenu">
-                <div class="center">
-                    <h3 class="about" onclick="aboutUsFunction()">About</h3>
-                    <div id="hiddenAbout" style="display:none" class="hidden">
-                        <h4>We are a boutique strategy + design firm based in Los Angeles with over 15 years of experience.
+
+        <div id="toggleMenu">
+            <div class="center">
+                <h3 class="about" onclick="aboutUsFunction()">About</h3>
+                <div id="hiddenAbout" style="display:none" class="hidden">
+                    <h4>We are a boutique strategy + design firm based in Los Angeles with over 15 years of experience.
+                    </h4>
+                    <hr/>
+                    <h4>We are leaders in business strategy and vision. We have a unique blend of a business and creative background
+                        in strategy, operations, design and technology.
+                    </h4>
+                </div>
+                <div>
+                    <h3 class="about" onclick="strategyFunction()">Strategy</h3>
+                    <div class="hidden" style="display:none" id="hiddenStrategy">
+                        <h4>We help ambitious startups, investors and companies fulfill their potential through smart partnerships.
+                            <hr/>Our strategies include:
                         </h4>
-                        <hr/>
-                        <h4>We are leaders in business strategy and vision. We have a unique blend of a business and creative
-                            background in strategy, operations, design and technology.
-                        </h4>
-                    </div>
-                    <div>
-                        <h3 class="about" onclick="strategyFunction()">Strategy</h3>
-                        <div class="hidden" style="display:none" id="hiddenStrategy">
-                            <h4>We help ambitious startups, investors and companies fulfill their potential through smart partnerships.
-                                <hr/>Our strategies include:
-                            </h4>
-                            <ul style="font-size:18px">
-                                <li>Brand Identity</li>
-                                <li>Design</li>
-                                <li>Social Media</li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div>
-                        <div>
-                            <h3 class="about" onclick="clientsFunction()">Clients</h3>
-                            <div class="hidden" style="display:none" id="hiddenClients">
-                                <h4>Our clients are top companies from every industry. They include:
-                                </h4>
-                                <ul style="font-size:18px">
-                                    <li>Revel Seasonings</li>
-                                    <li>Tradesy</li>
-                                    <li>Irvine Company</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <h3 class="about" onclick="contactFunction()">Contact Us</h3>
-                    <div class="hidden" style="display:none" id="hiddenContact">
-                        <h4>Say hello to get in touch with us. We would be delighted to connect with you.
-                        </h4>
-                        <hr/>
-                        <h4>Phone: +1 949 464-8054</h4>
-                        <h4>Email: hello@belancio.com</h4>
-
-
+                        <ul style="font-size:18px">
+                            <li>Brand Identity</li>
+                            <li>Design</li>
+                            <li>Social Media</li>
                         </ul>
                     </div>
-                </div>
 
+                </div>
+                <div>
+                    <div>
+                        <h3 class="about" onclick="clientsFunction()">Clients</h3>
+                        <div class="hidden" style="display:none" id="hiddenClients">
+                            <h4>Our clients are top companies from every industry. They include:
+                            </h4>
+                            <ul style="font-size:18px">
+                                <li>Revel Seasonings</li>
+                                <li>Tradesy</li>
+                                <li>Irvine Company</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="about" onclick="contactFunction()">Contact Us</h3>
+                <div class="hidden" style="display:none" id="hiddenContact">
+                    <h4>Say hello to get in touch with us. We would be delighted to connect with you.
+                    </h4>
+                    <hr/>
+                    <h4>Phone: +1 949 464-8054</h4>
+                    <h4>Email: hello@belancio.com</h4>
+
+
+                    </ul>
+                </div>
             </div>
+
+        </div>
+    </div>
+    <div>
+        <h2 class="intro-paragraph">Page 2</h2>
+        <div class="arrow-container">
+            <img class="arrow-down" onclick="scrollDown()" src="./images/v-favicon.png">
+        </div>
+    </div>
+    <div class="second-section">
+        <div class="transform">
+            <img class="pictures transform" src="./images/large-curology-mini.jpg" />
+            <span class="pic-text">About Boutique</span>
         </div>
         <div>
-            <h2 class="intro-paragraph">Page 2</h2>
-            <div class="arrow-container">
-                <img class="arrow-down" onclick="scrollDown()" src="./images/v-favicon.png">
-            </div>
-        </div>
-        <div class="second-section">
-            <div class="transform">
-                <img class="pictures transform" src="./images/large-curology-mini.jpg" />
-                <span class="pic-text">About Boutique</span>
-            </div>
-            <div>
-                <img class="small-pic transform" src="./images/small2-tradesy-mini.jpg" />
-                <img class="small-pic transform" src="./images/small1-revel-seasonings-mini.jpg" />
+            <img class="small-pic transform" src="./images/small2-tradesy-mini.jpg" />
+            <img class="small-pic transform" src="./images/small1-revel-seasonings-mini.jpg" />
 
-            </div>
         </div>
-        <div class="footer" style="padding:50px; color:gray">
-            <p>Replication Copyright Kara Cavanaugh 2018</p>
+    </div>
+    <div class="footer" style="padding:50px; color:gray">
+        <p>Replication Copyright Kara Cavanaugh 2018</p>
 
-            <p style="padding-left:40vw">Original Site:
-                <a href="http://www.belancio.com/"> http://www.belancio.com/</a>
-            </p>
-        </div>
+        <p style="padding-left:40vw">Original Site:
+            <a href="http://www.belancio.com/"> http://www.belancio.com/</a>
+        </p>
+    </div>
 
 </body>
 

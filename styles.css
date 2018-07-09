@@ -55,6 +55,9 @@ div h3 {
 .arrow-down {
   height: 12vh;
 }
+.relative-pic{
+  position:relative;
+}
 .second-section {
   display: flex;
   flex-direction: row;
@@ -80,6 +83,20 @@ div h3 {
       -ms-transition: all 0.6s ease;
           transition: all 0.6s ease;
 }
+#vert-flex{
+  display:flex;
+  flex-direction: column;
+}
+.pic-text{
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 .footer {
   display: flex;
 }
@@ -98,10 +115,7 @@ div h3 {
 .transform:hover .pic-text{
   opacity: 1;
 }
-.pic-text{
-opacity:0;
-/* background-image: './images/small2-tradesy-mini.jpg' */
-}
+
 .pic-text:hover{
 opacity: 1;
 background-color: gray;
