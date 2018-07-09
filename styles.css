@@ -84,12 +84,16 @@ div h3 {
   display: flex;
 }
  .transform{
-   position: relative;
+   display:flex;
+   flex-direction: row;
  }
 .transform:hover{
    border-radius: 10%;
       opacity: 0.7;
 
+}
+.absolute-pic{
+  position: absolute;
 }
 .transform:hover .pic-text{
   opacity: 1;
