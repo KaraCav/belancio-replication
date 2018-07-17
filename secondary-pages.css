@@ -1,3 +1,6 @@
+.tradesy-background{
+    background-color: #ebcec0;
+}
 .head-div{
 background-color:gray;
 }
@@ -6,4 +9,5 @@ width: 30vw;
 float: right;
 padding:2em;
 color: gray;
+background-color: blue;
 }
