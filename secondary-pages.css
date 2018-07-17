@@ -4,10 +4,19 @@
 .head-div{
 background-color:gray;
 }
-.tradesy-1-right{
+.tradesy-1-left{
 width: 30vw;
 float: right;
 padding:2em;
+padding-left:30%;
 color: gray;
 background-color: blue;
+}
+.tradesy-1-right{
+padding: 2em;
+line-height:36px;
+font-size:24px;
+font-family: Helvetica, sans-serif;
+font-weight: lighter;
+margin: 0 2em 0 2em;
 }
