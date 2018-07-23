@@ -10,14 +10,17 @@ float: right;
 padding:2em;
 padding-left:30%;
 color: gray;
-background-color: blue;
 }
 .tradesy-1-right{
-font-family: 'Maven Pro', sans-serif;
+/* font-family: 'Maven Pro', sans-serif; */
 padding: 2em;
 line-height:36px;
 font-size:24px;
 font-family: Helvetica, sans-serif;
 font-weight: lighter;
 margin: 0 2em 0 2em;
+}
+
+.tradesy-pic1{
+width:100%;
 }
